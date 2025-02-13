@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+     
+    <head>
+        <title>Todo</title>
+        {% include "bootstrap.html" %}
+    </head>
+    <body class="bg-dark text-light">
+        {% include "navbar.html" %}
+        <div class = "text-center">
+            <h3>Todo App</h3>
+        </div>
+        <div class = "row justify-content-center">
+            <div class = "col-auto mx-auto">
+                <div class = "ratio ratio-1x1" style="width: 200px;">
+                    <div class="card-body p-5 mb-2 bg-info text-dark text-center d-flex flex-column align-items-center justify-content-center">
+                        <div class = "col-auto">
+                            <h4 class="card-title ">12</h4>
+                            <!-- <h6 class="card-subtitle mb-2 text-body-secondary"></h6> -->
+                            <h5 class="card-text">Tasks to be completed</h5>
+                            <!-- <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-auto mx-auto">
+                <div class = "ratio ratio-1x1 text-center" style="width:200px;">
+                    <div class="card-body p-5 mb-2 bg-success text-white text-center d-flex flex-column align-items-center justify-content-center">
+                    
+                        <h4 class="card-title ">7</h4>
+                        <!-- <h6 class="card-subtitle mb-2 text-body-secondary"></h6> -->
+                        <h5 class="card-text">Tasks completed</h5>
+                        <!-- <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a> -->
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          
+
+        <div class="form-check">
+            <h2>Tasks to do</h2>
+            <!-- <label class="form-check-label">Task 1</label> -->
+            <input type = "text" name = "task" class = "form-control" placeholder = "+ Add a task">
+            
+        </div>
+    </body>
+</html>
